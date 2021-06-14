@@ -1,0 +1,107 @@
+body{
+margin: 0;
+padding: 0;
+overflow: hidden;
+font-family:Arial;}
+
+main{
+width: 100%;
+height: 800px;
+background-image: radial-gradient(#3e3e3e 10%, #797979);
+position:relative;}
+
+
+	
+	.banner{
+	width: 450px;
+	height: 50px;
+	position: absolute;
+	background-color: #0171d5;
+	top: 88%;
+	left: 78%;
+	transform: rotate(-25deg);
+	border: 4px solid #c7c7c7;
+	transition:2s;}
+	h1{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: white;
+	padding-top: 1.5%;}
+	.banner:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+	transform: translate(-45px,5px);}
+		     
+	.hal9000 {
+		width: 400px;
+		height: 750px;
+		background-color: #202020;
+		border: 10px solid #c7c7c7;
+		position: relative; 
+		margin: auto;
+	}
+		.nome{
+		width:90%;
+		height:60px;
+		margin: auto;
+		border: 3px solid #c7c7c7;
+		margin-top: 5%;}
+		.nome p{
+		float:left;
+		font-size: 40px;
+		color: white;
+		margin: 0;
+		padding-top:2.1%;
+		padding-bottom: 2.1%;}
+		.elipse1{
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+		width: 350px;
+		height: 350px;
+		border-radius: 100%;
+		left: 21px;
+		position: absolute;
+		background-image: repeating-radial-gradient(#DFD8DB 10%, #aaa0a1 20%);
+		border: 4px solid #c7c7c7;
+		top: 145px;}
+		.elipse2{
+		box-shadow: 0 42px 46px 0 rgba(0,0,0,0.24), 0 17px 10px 0 rgba(0,0,0,0.19);
+		width: 300px;
+		height: 300px;
+		border-radius: 100%;
+		position: absolute;
+		background-image: radial-gradient(#fff15b , red, black 15%);
+		text-align: center;	
+		left: 25px;
+		top: 22px;
+		border: 1px solid black;}
+		.elipse2 a {
+			top: 140px;
+			position: relative;
+			text-decoration: none;
+			color: white;
+			font-weight: bold;
+			font-size: 20px;
+			text-shadow: 0 1px 5px black
+		}
+		.voice{
+		width: 100%;
+		height: 200px;
+		border-top:4px solid #c7c7c7;
+		position:absolute;
+		background-image: repeating-linear-gradient(#E2E2E2 15%, #898989 20%);
+		bottom: 0;}
+		.elipse2:hover {
+			animation: bg infinite ease-in-out;
+			animation-duration: 4s;
+			animation-direction: reverse;
+			cursor: pointer;
+		}
+		@keyframes bg {
+			0% {background-image: radial-gradient(#fff15b , red, black 25%);}
+			25% {background-image: radial-gradient(#fff15b , red, black 50%);}
+			50% {background-image: radial-gradient(#fff15b , red, black 75%);}
+			75% {background-image: radial-gradient(#fff15b , red, black 50%);}
+			100% {background-image: radial-gradient(#fff15b , red, black 25%);}
+		}
+
