@@ -1,12 +1,11 @@
 body {
-    height: 100vh;
     width: 100%;
     background-color: black;
-    overflow: hidden;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     background-size: cover;
+    overflow: hidden;
 }
 
 .cover {
@@ -130,8 +129,8 @@ width:25px;
     border-radius: 50%;
     z-index: 5;
     overflow: hidden;
-    -webkit-transform: scale(1.8) translate(0px, 930px);
-            transform: scale(1.8) translate(0px, 930px);
+    -webkit-transform: scale(2.8) translate(0px, 415px);
+            transform: scale(2.8) translate(0px, 415px);
     background-image: url("./moon.png");
     box-shadow: 0px 0px 42px 0px rgba(144, 144, 144, 0.33);
     transition-timing-function: linear;
@@ -151,8 +150,8 @@ width:25px;
 }
 
 .earth-pan {
-    -webkit-animation: earth-pan 56s;
-    animation: earth-pan 56s;
+    -webkit-animation: earth-pan 60s;
+    animation: earth-pan 60s; 
 }
 
 @-webkit-keyframes earth-pan {
@@ -161,8 +160,8 @@ width:25px;
                 transform: scale(1.8) translate(0px, 190px);
     }
     100% {
-        -webkit-transform: scale(2.8) translate(0px, 700px);
-                transform: scale(2.8) translate(0px, 700px);
+        -webkit-transform: scale(2.8) translate(0px, 415px);
+                transform: scale(2.8) translate(0px, 415px);
     }
 }
 
@@ -172,8 +171,8 @@ width:25px;
                 transform: scale(1.8) translate(0px, 190px);
     }
     100% {
-        -webkit-transform: scale(2.8) translate(0px, 700px);
-                transform: scale(2.8) translate(0px, 700px);
+        -webkit-transform: scale(2.8) translate(0px, 415px);
+                transform: scale(2.8) translate(0px, 415px);
     }
 }
 
